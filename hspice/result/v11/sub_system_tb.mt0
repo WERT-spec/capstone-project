@@ -1,0 +1,59 @@
+$DATA1 SOURCE='PrimeSim HSPICE' VERSION='W-2024.09-1 linux64' PARAM_COUNT=0
+.TITLE '* sub_system pfm_v11_final: c1=1.05pf + c_snub=100pf + rzcd_lead=45k + rfb_bot=7.365k (pwm & pfm 1.800v aligned); unvalidated'
+ t_vout_rise      t_vout_rise99    t_vref_settle    vout_peak       
+ vout_os_pct      vref_actual_avg  vref_actual_min  vref_actual_max 
+ vref_ripple_pp   vout_avg_heavy   vout_avg_light   load_reg_pct    
+ pwm_span16       pwm_period       pwm_freq_mhz     pwm_per1        
+ pwm_per2         pwm_per3         pwm_per4         pwm_per5        
+ pwm_per6         pwm_per7         pwm_per8         vcomp_min_heavy 
+ vcomp_max_heavy  vcomp_pp_heavy   vout_min_heavy   vout_max_heavy  
+ vout_pp_heavy    vout_max_post52  vout_min_post52  vout_swing_post52
+ mode_min_light   mode_max_light   mode_min_heavy   mode_max_heavy  
+ t_mode_rise      t_mode_fall      mode_rise_delay  mode_fall_delay 
+ mode_max_pre32   ntmr_max_pre32   t_arm            ntmr_max_prearm 
+ vref_at_5u       vref_at_10u      vref_at_15u      vout_at_28u     
+ vout_at_48u      vout_at_70u      vb_bgr_avg       vb_cmp01_avg    
+ vb_tri_avg       vb_ea_avg        vb_pwmosc_avg    vb_pwmcmp_avg   
+ vb_pg_avg        vb_mode_avg      pfm_rev          cap_pp_late     
+ esr_pp_late      vout_pp_light    il_min_light     il_max_light    
+ vref_raw_pp_light vref_pfm_pp_light pfm_light_per1   pfm_light_per2  
+ pfm_light_per3   pfm_light_per4   pfm_light_per5   pfm_light_per6  
+ pfm_light_per7   pfm_light_per8   vout_avg_late    vout_pp_late    
+ il_min_late      il_max_late      vref_raw_pp_late vref_pfm_pp_late
+ mode_max_late    pfm_late_per1    pfm_late_per2    pfm_late_per3   
+ pfm_late_per4    pfm_late_per5    pfm_late_per6    pfm_late_per7   
+ pfm_late_per8    vout_min_post32  vout_min_prestep vout_max_prestep
+ pfm_idle_max     pfm_idle_max_heavy vout_pp_long     vref_pfm_pp_long
+ mode_max_long    iin_avg_light    iin_avg_heavy    iin_avg_late    
+ pin_avg_light    pin_avg_heavy    pin_avg_late     t_ref_ready     
+ ref_ready_min_light ref_track_error_20u ref_track_error_30u
+ ref_track_error_62u vout_avg_long    temper          
+ alter#          
+  2.809e-05        2.246e-05        1.394e-05          1.8031       
+    0.1725           1.2778           1.2763           1.2788       
+  2.552e-03          1.7999           1.8030           0.1708       
+  7.221e-06        4.513e-07          2.2157         4.511e-07      
+  4.513e-07        4.517e-07        4.510e-07        4.519e-07      
+  4.510e-07        4.510e-07        4.515e-07          1.1308       
+    1.1863         5.550e-02          1.7975           1.8022       
+  4.703e-03          1.8133           1.7998         1.352e-02      
+ -5.801e-02        2.133e-02          3.2660           3.3256       
+  3.403e-05        5.314e-05        2.035e-06        1.142e-06      
+  3.868e-02          0.3135         2.577e-05        2.400e-03      
+    0.3215           0.8257           1.1781           1.7983       
+    1.8009           1.8021           2.0000           2.0000       
+    2.0001           2.0000           2.0000           2.0000       
+    2.0000           2.0005          11.0000         7.410e-04      
+  3.215e-03        3.317e-03       -1.165e-02          0.1491       
+  1.037e-03        9.315e-05        4.445e-07        4.444e-07      
+  4.434e-07        4.438e-07        4.451e-07        4.493e-07      
+  4.487e-07        4.524e-07          1.8030         3.418e-03      
+ -1.166e-02          0.1491         9.391e-04        1.762e-04      
+  2.753e-02        4.508e-07        4.523e-07        4.500e-07      
+  4.489e-07        4.481e-07        4.501e-07        4.489e-07      
+  4.480e-07          1.7917           1.7975           1.8030       
+    3.3153         6.453e-05        3.421e-03        1.780e-04      
+  2.753e-02       -3.488e-02         -0.2939        -3.487e-02      
+    0.1151           0.9699           0.1151         3.169e-05      
+    3.3000         9.387e-03        4.430e-04        3.179e-04      
+    1.8030          25.0000        1               
