@@ -1,3 +1,14 @@
-﻿hspice/sxcmd.log
+hspice/sxcmd.log
 __pycache__/
+*.py[cod]
 hspice/result/v1[2-9]/*.tr0
+
+# Backups and temporary files
+*.bak
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# Tooling and local files
+.claude/settings.local.json
+Claude outputs/
